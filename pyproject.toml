@@ -1,0 +1,11 @@
+[project]
+name = "mcp-server-scrapli"
+version = "0.1.0"
+description = "MCP Server to interface with network devices using Scrapli"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "scrapli[asyncssh,textfsm]>=2025.1.30",
+    "textfsm>=1.1.3",
+]
